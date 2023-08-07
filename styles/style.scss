@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    text-align: left;
+}
+
+span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+label {
+    padding-top: 5px;
+}
+
+.form-label {
+    padding-left: 0px !important;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+}
+
+.btn-success {
+    background-color: #17ad3a !important;
+}
+
+.btn-success:hover {
+    background-color: rgb(57, 190, 88) !important;
+}
+
+img.track {
+    border: 1px solid #8a8a8a;
+    width: 64px;
+    height: auto;
+}
+
+.px-0 {
+    margin-left: initial !important;
+    width: 100%;
+}
+
+#song-detail {
+    padding: 0 !important;
+    margin-top: 20px;
+}
