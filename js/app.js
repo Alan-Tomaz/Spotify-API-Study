@@ -1,7 +1,7 @@
 const APIController = (function () {
 
-    const clientId = '';
-    const clientSecret = '';
+    const clientId = prompt("Insert The Client ID (This Information Not Be Saved):");
+    const clientSecret = prompt("Insert The Client Secret (This Information Not Be Saved):");
 
     // private methods
     const _getToken = async () => {
